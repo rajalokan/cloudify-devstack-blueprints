@@ -9,7 +9,7 @@ fi
 source /tmp/sclib.sh
 
 # Preconfigure the instance
-_preconfigure_instance devstack
+preconfigure devstack
 
 sudo mkdir -p /opt/stack
 sudo chown -R ${USER}: /opt/stack
